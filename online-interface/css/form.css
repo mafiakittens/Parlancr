@@ -1,0 +1,42 @@
+textarea {
+  width:100%;
+  margin-bottom: 3em;
+  padding:.8em;
+}
+.button-group{
+  height: 44px;
+}
+
+/* button unselected */
+.button-left, .button-middle, .button-right{
+  background-color:  #388e8e; /* dark teal blue */
+  /* border: none; */
+  border-style:solid;
+  border-width:thin;
+  border-color:#cccccc;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.button-left{
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+}
+.button-right{
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+}
+
+/* button hover */
+.button-left:hover, .button-middle:hover, .button-right:hover{
+  background-color:#67afaf; /* medium teal blue */
+  border-color: #ffffff;
+}
+
+/* button selected */
+.button-left-selected, .button-middle-selected, .button-right-selected{
+  background: radial-gradient(#eeeeee, #dddddd);
+}
