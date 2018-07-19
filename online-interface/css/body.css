@@ -5,9 +5,26 @@ h1{
 
 }
 h2{
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .colorize{
   color: #388e8e; /* dark teal blue */
   display:inline;
+}
+
+/* PANEL STYLING */
+.center-panel{
+  text-align:center;
+}
+
+/* ABOUT US */
+.personnel{
+  text-align:center;
+  margin-bottom: 2em;
+}
+.portrait{
+  width:60%;
+  height:auto;
+  border-radius: 40%;
+  margin-bottom: 1em;
 }

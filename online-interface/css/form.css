@@ -1,6 +1,6 @@
 textarea {
   width:100%;
-  margin-bottom: 3em;
+  /* margin-bottom: 3em; */
   padding:.8em;
 }
 .button-group{
@@ -8,7 +8,7 @@ textarea {
 }
 
 /* button unselected */
-.button-left, .button-middle, .button-right{
+.button-left, .button-middle, .button-right, .button-translate{
   background-color:  #388e8e; /* dark teal blue */
   /* border: none; */
   border-style:solid;
@@ -39,4 +39,20 @@ textarea {
 /* button selected */
 .button-left-selected, .button-middle-selected, .button-right-selected{
   background: radial-gradient(#eeeeee, #dddddd);
+}
+.call-to-translate{
+  text-align:center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-translate{
+  border-radius:5px;
+  width:100%;
+  margin-top:20px;
+  margin-bottom:20px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top:15px;
+  padding-bottom:15px;
 }

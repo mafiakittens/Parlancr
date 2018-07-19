@@ -1,0 +1,25 @@
+swagger: "2.0"
+    info:
+      title: "ShakespeareReader"
+      description: "Translate your modern style sentences into the style of Shakespeare text."
+      version: "0.1.0"
+    # This field will be replaced by the deploy_api.sh script.
+    host: "YOUR-PROJECT-ID.appspot.com"
+    schemes:
+      - "https"
+    paths:
+      "/airportName":
+        get:
+          description: "Get the airport name for a given IATA code."
+          operationId: "shakespeareReader"
+          parameters:
+            -
+              text: inputString
+              input-style: styleString
+          responses:
+            200:
+              description: "Success."
+              schema:
+                type: string
+            400:
+              description: "The IATA code is invalid or missing."
