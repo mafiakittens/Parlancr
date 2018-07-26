@@ -1,0 +1,20 @@
+.navbar{
+  border-radius: 0px;
+  background-color: #388e8e; /* dark teal blue */
+  border-color: #388e8e; /* dark teal blue */
+}
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color:#c5e8e8; /* light teal blue */
+}
+.icon{
+  display:inline;
+}
+.navbar-brand>img{
+  height:20px;
+  width:auto;
+  display:inline;
+  margin-right: 10px;
+}

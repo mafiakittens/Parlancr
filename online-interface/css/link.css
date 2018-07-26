@@ -1,0 +1,23 @@
+/* Style all font awesome icons */
+.fa, .link{
+    text-align: center;
+    text-decoration: none;
+    color: #388e8e; /* dark teal blue */
+}
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover, .link:hover{
+  color: #388e8e; /* dark teal blue */
+  opacity: 0.5;
+  text-decoration: none;
+}
+.fa:visited, .link:visited, .fa:active, .link:active{
+  color: #388e8e; /* dark teal blue */
+  opacity: 0.7;
+  text-decoration: none;
+}
