@@ -1,4 +1,6 @@
 # Text Style Transference Resources
+The Parlancr team discovered many incredible examples of research and resources in text style transference and related topics. We share some of them here both to promote the works that informed and inspired us and to stimulate further work in text style transference for natural language. Enjoy!
+
 
 ## Earliest Known Paper on Text Style Transference?
 * Paraphrasing for Style, COLING 2012, [[paper]](http://www.aclweb.org/anthology/C12-1177), [[data]](https://github.com/cocoxu/Shakespeare)
